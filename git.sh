@@ -7,6 +7,7 @@
      exit
   fi
   # --- get variables
+  git pull origin master
   add_file=$1
   git add $add_file
   git commit -m "add a new file"
